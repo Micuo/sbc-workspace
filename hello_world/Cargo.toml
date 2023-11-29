@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 solana-program = "1.17.6"
+
+[lib]
+crate_type = ["cdylib", "lib"]
